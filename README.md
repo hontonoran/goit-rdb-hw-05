@@ -1,23 +1,23 @@
 # goit-rdb-hw-05
 
-ДЗ з РБД: Вкладені запити. Повторне використання коду. Функція
+## ДЗ з РБД: Вкладені запити. Повторне використання коду. Функція
 
-## 1. Вкладений `SELECT` — [task_1.sql](sql/task_1.sql)
+## №1. [Вкладений `SELECT`](sql/task_1.sql)
 
-![task 1](screenshots/p1.png)
+![task 1](screenshots/p1_subquery_select.png)
 
-## 2. Вкладений `WHERE` — [task_2.sql](sql/task_2.sql)
+## №2. [Вкладений `WHERE`](sql/task_2.sql)
 
-![task 2](screenshots/p2.png)
+![task 2](screenshots/p2_subquery_where.png)
 
-## 3. Вкладений `FROM` — [task_3.sql](sql/task_3.sql)
+## №3. [Вкладений `FROM`](sql/task_3.sql)
 
-![task 3](screenshots/p3.png)
+![task 3](screenshots/p3_subquery_from.png)
 
-## 4. Тимчасова таблиця через `WITH` — [task_4.sql](sql/task_4.sql)
+## №4. [Тимчасова таблиця через `WITH`](sql/task_4.sql)
 
-![task 4](screenshots/p4.png)
+![task 4](screenshots/p4_with_temp.png)
 
-## 5. Функція ділення `divide_numbers` — [task_5.sql](sql/task_5.sql)
+## №5. [Функція ділення `divide_numbers`](sql/task_5.sql)
 
-![task 5](screenshots/p5.png)
+![task 5](screenshots/p5_function.png)
