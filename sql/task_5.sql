@@ -1,4 +1,19 @@
--- 5. Створіть функцію з двома параметрами, яка буде ділити перший параметр на другий. Обидва параметри та значення, що повертається, повинні мати тип FLOAT.
+USE hw3;
 
---Використайте конструкцію DROP FUNCTION IF EXISTS. Застосуйте функцію до атрибута quantity таблиці order_details . Другим параметром може бути довільне число на ваш розсуд.
+DROP FUNCTION IF EXISTS divide_numbers;
 
+DELIMITER //
+
+CREATE FUNCTION divide_numbers(a FLOAT, b FLOAT)
+RETURNS FLOAT
+DETERMINISTIC
+NO SQL
+BEGIN
+    RETURN a / b;
+END //
+
+DELIMITER ;
+
+SELECT id, order_id, quantity,
+       divide_numbers(quantity, 2) AS quantity_divided
+FROM order_details;
